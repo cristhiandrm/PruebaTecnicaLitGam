@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc51b896c6d2b384b936bf6b43d238c6, type: 3}
+  m_Name: ParabolicWeapon
+  m_EditorClassIdentifier: 
+  weaponName: GrenadeLauncher
+  fireRate: 1
+  totalMunitions: 6
+  rechargableMunition: 10
+  bulletPrefab: {fileID: 1020356005089320206, guid: c5058c4f095a4834798ce8a53072c7fb, type: 3}
+  force: 90
+  upwardForce: 40
